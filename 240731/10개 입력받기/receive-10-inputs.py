@@ -6,4 +6,4 @@ for i in lst:
 lst = lst[::-1]
 
 
-print(sum(lst),(sum(lst)/len(lst)))
+print(sum(lst),round(sum(lst)/len(lst),1))
