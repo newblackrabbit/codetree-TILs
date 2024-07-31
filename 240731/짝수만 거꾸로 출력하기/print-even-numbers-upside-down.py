@@ -3,8 +3,8 @@ input = sys.stdin.readline
 
 n = int(input())
 
-for i in range(n):
-    num = list(map(int,input().split()))
+
+num = list(map(int,input().split()))
 
 ans = []
 
