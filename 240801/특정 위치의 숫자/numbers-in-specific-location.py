@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
 
-num = map(int,input().split())
+num = list(map(int,input().split()))
 
 print(sum(num))
