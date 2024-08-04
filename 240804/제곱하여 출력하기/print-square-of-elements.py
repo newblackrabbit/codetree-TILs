@@ -1,5 +1,4 @@
 n = int(input())
-
+m = list(map(int,input().split()))
 for i in range(n):
-    m = int(input())
-    print(m**2)
+    print(m[i]**2,end= ' ')
