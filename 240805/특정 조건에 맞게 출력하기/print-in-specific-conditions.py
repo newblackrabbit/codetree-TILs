@@ -3,6 +3,7 @@ lst = list(map(int,input().split()))
 for i in range(len(lst)):
     if lst[i] == 0:
         lst = lst[:i]
+        break
 
 for i in range(len(lst)):
     if lst[i] % 2 == 0:
