@@ -12,3 +12,6 @@ for i in range(len(lst)):
 
 for i in lst:
     print(i,end=' ')
+
+if len(lst) == 0:
+    print(0)
