@@ -5,6 +5,7 @@ def year(n):
         print('false')
     else:
         print('false')
+    return None
 
 y = int(input())
 
