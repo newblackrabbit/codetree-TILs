@@ -1,15 +1,11 @@
-def year(y):
-    if y % 4 == 0:
-        return True
-    if y % 100 == 0 and y % 400 != 0:
-        return False
-    return False
+def year(n):
+    if n % 4 == 0:
+        print('true')
+    elif n % 100 == 0 and y % 400 != 0:
+        print('false')
+    else:
+        print('false')
 
 y = int(input())
-
-if year(y) == True:
-    print('true')
-else:
-    print('false')
 
 year(y)
